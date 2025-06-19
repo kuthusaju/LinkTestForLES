@@ -4,10 +4,12 @@
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
 	myStructTypeVar : StructType;
+	counter : DINT;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[myStructTypeVar.enumTypeVariable := EnumType.member2;]]></ST>
+      <ST><![CDATA[myStructTypeVar.enumTypeVariable := EnumType.member2;
+counter := counter + 1;]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>
