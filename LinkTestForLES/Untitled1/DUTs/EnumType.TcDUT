@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.15">
+  <DUT Name="EnumType" Id="{52914f01-c10c-479c-82fe-3217b2f6c9a2}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+{attribute 'strict'}
+{attribute 'TO_STRING'}
+TYPE EnumType :
+(
+	member1 := 0,
+	member2,
+	member3,
+	member4
+);
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

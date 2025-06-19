@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.15">
+  <DUT Name="StructType" Id="{220bee7b-55fe-4772-bfe4-34d3f3c798eb}">
+    <Declaration><![CDATA[TYPE StructType :
+STRUCT
+	IO1 AT %I* : UINT;
+	enumTypeVariable : EnumTYpe;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

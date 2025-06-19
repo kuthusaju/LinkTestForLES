@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.15">
+  <POU Name="MAIN" Id="{313d875a-09d8-412f-8daa-90367b1d5c09}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	myStructTypeVar : StructType;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[myStructTypeVar.enumTypeVariable := EnumType.member2;]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>
